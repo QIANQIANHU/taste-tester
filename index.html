@@ -12,9 +12,9 @@
   <body>
     <div class="container">
       <h1 class= "jumbotron">Select your dinner:</h1>
-
+        <form class="blanks">
           <h3>Select your starter:</h3>
-          <form>
+
             <div class="radio">
               <label>
                 <input type="radio" name="flavor1" value="salad" checked>
@@ -33,9 +33,9 @@
                 Soup
               </label>
             </div>
-          </form>
+
           <h3>Select your main course:</h3>
-          <form>
+
             <div class="radio">
               <label>
                 <input type="radio" name="flavor2" value="pasta" checked>
@@ -54,9 +54,9 @@
                 Steak
               </label>
             </div>
-          </form>
+
           <h3>Select your dessert:</h3>
-          <form>
+
             <div class="radio">
               <label>
                 <input type="radio" name="flavor3" value="icecream" checked>
@@ -75,10 +75,11 @@
                 juice
               </label>
             </div>
-          </form>
+
 
           <button type="submit" class="btn">submit</button>
-
+      </form>
+          <p><span id="output"></span></p>
     </div>
   </body>
 </html>
